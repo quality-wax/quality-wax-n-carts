@@ -1,0 +1,165 @@
+<section class="after-head top-block-page with-back section-white-text">
+    <div class="overflow-back image-cover mw-100" data-background="assets/images/content/x/top-3.jpg"></div>
+    <div class="overflow-back bg-body-back opacity-80"></div>
+    <div class="content-offs container" style="margin-top: 175px;">
+        <div class="section-top-head with-back">
+            <h1 class="section-title">{{brand.name}}</h1>
+            <div class="mt-3">
+                <div class="page-breadcrumbs"><a class="content-link" href="/">Home</a><span class="mx-2">\</span><a
+                        class="content-link" href="/brand/{{brand.id}}/products">Shop Brand</a><span
+                        class="mx-2">\</span><span>{{brand.id}}</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container">
+    <div class="sidebar-container">
+        <div class="content">
+            <section class="section">
+                <div class="entity">
+                    <div class="entity-image"><img class="w-100 mw-100" src="{{brand.photo}}" alt="{{brand.name}}">
+                    </div>
+                    <!-- <div class="entity-info-list">
+            <div class="row">
+              <div class="col-12 col-md-auto">
+                <div class="entity-date">15 jun 2019</div>
+              </div>
+              <div class="col-12 col-md">
+                <div class="entity-categories"><a href="../shop/brand/{{product.brandId}}/product/{{product.id}}">action</a>, <a href="../shop/brand/{{product.brandId}}/product/{{product.id}}">adventures</a>, <a href="../shop/brand/{{product.brandId}}/product/{{product.id}}">fantasy</a></div>
+              </div>
+              <div class="col-12 col-md-auto">
+                <div class="entity-info"><span class="entity-info-item"><span class="entity-info-item-value">1</span> <span class="entity-info-item-title">Likes</span></span> / <span class="entity-info-item"><span class="entity-info-item-value">0</span> <span class="entity-info-item-title">Share</span></span> / <span class="entity-info-item"><span class="entity-info-item-value">1</span> <span class="entity-info-item-title">Comments</span></span></div>
+              </div>
+            </div>
+          </div> -->
+                    <div class="entity-body" [innerHTML]="brand?.fullDescription">
+                    </div>
+                    <div class="entity-footer">
+                        <h3 class="section-title h4"><a class="button"
+                                href="../shop/brand/{{brand.id}}/products"><span>View Available {{brand.name}}
+                                    Products</span></a></h3><br>
+                        <div class="separator-line mb-3"></div>
+                        <div class="entity-action-icons">
+                            <div class="entity-actions-title">Share:</div><a class="content-link" href="#"><i
+                                    class="fab fa-facebook-f" aria-hidden="true"></i> </a><a class="content-link"
+                                href="#"><i class="fab fa-twitter" aria-hidden="true"></i> </a><a class="content-link"
+                                href="#"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a><a
+                                class="content-link" href="#"><i class="fab fa-pinterest" aria-hidden="true"></i> </a><a
+                                class="content-link" href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-block">
+                    <div class="section-head">
+                        <div class="separator-double"></div>
+                        <h3 class="section-title">Comments</h3>
+                    </div>
+                    <div class="entity-block entity-hover-shadow" *ngFor="let comment of brand.comments">
+                        <div class="pb-4 entity-content">
+                            <div class="side-image entity-header">
+                                <div class="entity-image"><img class="mw-100"
+                                        src="assets/images/content/100x100/people.png" alt=""></div>
+                                <h5 class="mb-2 entity-title">{{brand.name}} User</h5>
+                                <!-- <div class="entity-date"><span class="text-theme"><i class="fas fa-calendar-alt"></i></span>&nbsp;&nbsp;&nbsp;07.08.2018, 14:33</div> -->
+                            </div>
+                            <p class="entity-text">{{comment}}</p>
+                            <!-- <div class="entity-footer">
+                <div class="entity-actions"><a href="#"><i class="fas fa-reply"></i>&nbsp;&nbsp;reply</a><a href="#"><i class="fas fa-quote-left"></i>&nbsp;&nbsp;quote</a></div>
+              </div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="section-block">
+                    <div class="section-head">
+                        <div class="separator-double"></div>
+                        <h3 class="section-title">Add Comment</h3>
+                    </div>
+                    <form autocomplete="off">
+                        <div class="row grid">
+                            <div class="col-12 col-sm-6">
+                                <div class="input-view-flat input-gray-shadow form-group"><label class="required">Your
+                                        Name</label>
+                                    <div class="input-group"><input class="form-control" name="name" type="text"
+                                            placeholder="Name" required="required"></div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <div class="input-view-flat input-gray-shadow form-group"><label class="required">Your
+                                        Email</label>
+                                    <div class="input-group"><input class="form-control" name="email" type="email"
+                                            placeholder="Email" required="required"></div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="input-view-flat input-gray-shadow form-group"><label class="required">Your
+                                        Message</label>
+                                    <div class="input-group"><textarea class="form-control" name="message"
+                                            placeholder="Message"></textarea></div>
+                                </div>
+                            </div>
+                            <div class="col-12"><button class="btn-wide mb-0 btn btn-theme" type="submit">add
+                                    comments</button></div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <div class="sidebar section order-lg-last">
+            <section class="section-sidebar">
+                <div class="mb-4 section-head">
+                    <h3 class="section-title h4"><span class="section-mark"></span><span>Best Sales</span></h3>
+                </div>
+                <div class="grid row">
+                    <div class="col-md-6 col-lg-12" *ngFor="let product of products">
+                        <article class="entity">
+                            <div class="grid-sm row">
+                                <div class="col-sm-5"><a class="entity-preview-show-up entity-preview"
+                                        href="../shop/brand/{{product.brandId}}/product/{{product.id}}"><span
+                                            class="embed-responsive embed-responsive-6by4"><img
+                                                class="embed-responsive-item" src="{{product.photo}}"
+                                                alt="{{product.name}}"></span><span
+                                            class="with-back entity-preview-content"><span
+                                                class="h3 m-auto text-theme"><i class="fas fa-search"></i></span><span
+                                                class="overflow-back bg-body-back opacity-70"></span></span></a></div>
+                                <div class="col">
+                                    <h4 class="h5 mb-2 entity-title"><a class="content-link"
+                                            href="../shop/brand/{{product.brandId}}/product/{{product.id}}">Strain
+                                            review: dutch treat</a></h4>
+                                    <div class="entity-date">$ {{printPrice(product.prices[0].amount)}} <span>/
+                                            {{product.prices[0].unit}}</span></div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="section-sidebar">
+                <div class="section-head">
+                    <h3 class="section-title h4"><span class="section-mark"></span><span>Shop Other Brands</span></h3>
+                </div>
+                <ul class="list-unstyled">
+                    <li *ngFor="let brand of brands"><a class="record-line"
+                            href="../shop/brand/{{brand.id}}/products"><span class="record-icon"><i
+                                    class="fas fa-cannabis"></i></span><span
+                                class="record-title">{{brand.name}}</span></a></li>
+                </ul>
+            </section>
+            <section class="section-sidebar">
+                <div class="section-head">
+                    <h3 class="section-title h4"><span class="section-mark"></span><span>Tags</span></h3>
+                </div>
+                <ul class="list-inline-flex">
+                    <li *ngFor="let product of products"><a class="record-line"
+                            href="../shop/brand/{{product.brandId}}/product/{{product.id}}"><span
+                                class="record-icon">#</span><span class="record-title">{{product.name}}</span></a></li>
+                </ul>
+            </section>
+            <section class="section-sidebar">
+                <div class="section-head">
+                    <h3 class="section-title h4"><a class="button" href="../shop/brand/{{brand.id}}/products"><span>View
+                                Available {{brand.name}} Products</span></a></h3>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
