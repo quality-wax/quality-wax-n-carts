@@ -220,7 +220,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '72%. THC and 0% cbd',
+    description2: 'Lemon Chiffon Sugar <br> Naturally flavored. Sugar free. Not a reduced calorie food. Contains a BE food ingredient. Since 1896. Great-grandpa Spaans said, use the best ingredients and give people their money worth. Good advice over 100 years ago, and we still go by it today <br> Ingredient<br> Enriched Bleached Flour (Bleached Wheat Flour, Niacin, Reduced Iron, Thiamine Mononitrate, Riboflavin and Folic Acid), Canola Oil, Sorbitol, Polydextrose (Adds a Trivial Amount of Sugar), Maltodextrin (Adds a Trivial Amount of Sugar), Contains Less than 2% of Whole Eggs, Natural Flavor, Soy Lecithin, Bicarbonate of Soda, Baking Powder (Sodium Acid Pyrophosphate, Sodium Bicarbonate, Corn Starch, Monocalcium Phosphate), Aspartame, Salt, Egg, Shade (Yellow 5, Salt, Yellow 6).',
     additionalInfo: '',
   } as Product,
 
@@ -245,7 +245,13 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: `
+    Crumble is an extract, a form of cannabis concentrate produced using a solvent such as butane or CO2 in combination with heat and pressure. But unlike other concentrates, which are generally more viscous, this one is — you guessed it — dry and crumbly. In fact, it is one of the driest extracts on the market.
+<br>
+Brands make crumble using either dried and cured cannabis flowers, or fresh flowers that are quickly frozen at an extremely low temperature. In this case, the end product is technically classified as a type of live resin.
+<br>
+Crumble wax is generally light yellow in color. It typically has the consistency of dry crumbs, but can also have a honeycomb structure that easily falls apart into its more distinctive crumbly texture. Over time, it tends to change color, going from light yellow to amber.
+    `,
     additionalInfo: '',
   } as Product,
 
@@ -270,7 +276,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Lemon Punch Live Resin Sauce by West Coast Cure is a Sativa leaning extract that merges the delicious and refreshing flavors of lemons and fruit punch. Instilling an upbeat mindset with a creative kicker, this citrus-centric sauce is known to energize, motivate, and arouse the consumer’s creative juices. A great daytime dab, Lemon Punchs effects create a sense of inspired relaxation that motivates the psyche.',
     additionalInfo: '',
   } as Product,
 
@@ -295,7 +301,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 3000 },
     ],
     description1: '',
-    description2: '',
+    description2: 'DIAMOND Black Caviar is sourced from 14 year-old sturgeon, with grain sizes between 3.3 and 3.5 mm in diameter.',
     additionalInfo: '',
   } as Product,
 
@@ -320,7 +326,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Concentrate enthusiasts will be familiar with sauce carts, or vape cartridges loaded with terpene-heavy sauce. Cannabis diamonds may also refer to the crystalline structures left over after terp sauce has been removed from the initial sauce mixture. These diamonds are usually coated in residual terp sauce. Diamonds can also refer to pure crystalline THCA that has been isolated from refined oil.',
     additionalInfo: '',
   } as Product,
 
@@ -345,7 +351,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Terp sauce is a cannabis extract that contains a high concentration of terpenes, resulting in a runny, syrupy sauce-like concentrate. Terpenes are the fragrant oils that give cannabis flower its many different aromas, such as lemon, pine, or skunk; they are also thought to contribute to the various effect profiles of cannabis strains. Terp sauce is often combined with more solid chunks of cannabis isolate or extract or processed into a vape cartridge. ',
     additionalInfo: '',
   } as Product,
 
@@ -369,8 +375,9 @@ export const PRODUCTS: Product[] = [
       { unit: '45-grams', amount: 2025 },
       { unit: '50-grams', amount: 2250 },
     ],
-    description1: '',
-    description2: '68.20% THC and 0.9% CBD',
+    description2: `This popular cannabis concentrate contains an impressively high cannabinoid content. Shatter gets its name from the fact that its resin can be cooled into a distinctive brittle sheet. As it goes through an extra filtration process, fats, waxes and some terpenes are removed. Shatter can be enjoyed by dabbing, vaping or placing it with some flower. <br>
+The stated percentages on this website may indicate the aggregate, and not individual amounts, of THC/CBD, THCA/CBDA, THCB/CBDB contained in our marijuana and marijuana products. Please review the product label for specific potency information for a particular marijuana or marijuana product. If multiple product batches are in the system, results will show as a range.`,
+    description1: '68.20% THC and 0.9% CBD',
     additionalInfo: '',
   } as Product,
 
@@ -395,7 +402,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Gelato 33 is a hybrid marijuana strain made by crossing Sunset Sherbet and Thin Mint GSC. Since its birth, a number of phenotypes have been released, all with their own unique attributes. One of them is Gelato #33, a balanced hybrid with compact buds, staying true to its Cookie genetics. Like other Gelato phenotypes, Gelato #33 is covered with fiery orange hairs while its buds can be dark green to purple. With sweet citrus and fruity flavors, Gelato #33 offers an uplifting and energetic high that is perfect for any post-work activity after a long day.',
     additionalInfo: '',
   } as Product,
 
@@ -420,7 +427,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Extracted from fresh frozen cannabis, providing the highest terpene concentrate.',
     additionalInfo: '',
   } as Product,
 
@@ -445,7 +452,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'A soil-to-oil craft cannabis for the seasoned connoisseur who seeks the highest quality THC and the boldest terpene flavors for the most fluid elevated experience. Live resin is the secret sauce with its small batch, single source strain of high cannabis terpene extracts to create a dynamic and expansive head sauce for an unparalleled entourage effect. Elysium Fields’ process starts in a sustainable, organic garden with its flower flash frozen to preserve the strongest terpenes for an ultimate flavor fest, while the high THC distillate assures a potent experience. Its C-Cell cart rocks a 50% strain specific HTE with 50% high THC distillate.',
     additionalInfo: '',
   } as Product,
 
@@ -470,7 +477,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Live Resin Terp Sugar is an MPX specific product that was created by our extract team with years of knowledge and experience. Our Live Resin Terp Sugar has a sauce like consistency with what appears to be little crystals of sugar floating on top of the sauce. The sauce contains High Terpene Full Spectrum Extract while the crystals are High Cannabinoid Full Spectrum Extract. This means you are enjoying the full plant experience during your dab sessions.',
     additionalInfo: '',
   } as Product,
 
@@ -495,7 +502,7 @@ export const PRODUCTS: Product[] = [
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'White Kush is the dreamy daughter of Afghan Kush and White Widow. A powerful indica, this strain will put you to sleep in a hurry. Taking after its kush heritage, White Kush features a strong and incredibly pungent aroma and is the perfect strain for relaxation and stress relief, great for winding down at the end of the day. Typically flowering between 8-10 weeks, this strain is good for both indoor and outdoor cultivation.',
     additionalInfo: '',
   } as Product,
 
