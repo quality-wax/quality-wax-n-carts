@@ -528,7 +528,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '67,03% THC and 0.0% CBD',
+    description2: 'Shatter is a cannabis extract that is solid and translucent in appearance, as if you could shatter it like glass. It achieves its glass-like appearance through specific processing techniques involving solvents like butane or other hydrocarbons. Concentrating essential compounds like THC and CBD, shatter offers the benefits of cannabis in a highly concentrated, compact form that is popularly dabbed or vaporized.',
     additionalInfo: '',
   } as Product,
 
@@ -552,8 +552,8 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '45-grams', amount: 2025 },
       { unit: '50-grams', amount: 2250 },
     ],
-    description1: '',
-    description2: '65,02% THC and 0.0% CBD',
+    description1: 'Shatter is usually dabbed, a method of consumption that involves flash vaporization off of a specialized water pipe called a dab rig. This glassy extract has a reputation for being potent, though it can range in potency depending on the chemical composition of the source plant and the extraction techniques and equipment used. While the high watermark for cannabis flower tends to sit around 30% THC, shatter extracts may test upward of 80% to 90% THC.',
+    description2: 'Shatter is a cannabis concentrate that is named for its hard, glass-like consistency that tends to crack, or shatter, when broken apart. It is typically gold or amber in color. Although shatter is popularly believed to be more potent or pure than other types of extracts, this is not always true; its appearance instead has only to do with the extract’s molecules being less agitated during production.',
     additionalInfo: '',
   } as Product,
 
@@ -578,7 +578,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '',
+    description2: 'Sour Diesel, also known as "Sour D" and "Sour Deez," is a popular sativa marijuana strain made by crossing Chemdawg and Super Skunk. Sour Diesel effects are dreamy, cerebral, fast-acting and energizing. This strain features a pungent flavor profile that smells like diesel. Medical marijuana patients choose Sour Diesel to help relieve symptoms associated with depression, pain, and stress. Growers say this strain grows best in a dry, outdoor climate and has a flowering time of 77 days. Fun fact: Sour Diesel first became popular in the early 1990s and has been legendary ever since.',
     additionalInfo: '',
   } as Product,
 
@@ -603,7 +603,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2500 },
     ],
     description1: '',
-    description2: '79.03% THC and 0% CBD',
+    description2: 'Blue Nina is an evenly balanced hybrid (50% indica/50% sativa) strain created through crossing the classic Blue Dream and the delicious Nina Limone strains. Although its dreamy highly medicinal effects might be what draw you in, the flavor of Blue Nina is what’s going to keep you coming back for more and more! Blue Nina brings together the fresh blueberry flavors of Blue Dream and blends them with the earthy lemony flavors of Nina Limone for a dazzling bright flavor that will leave your mouth watering. The aroma is very much the same, although it is quite a bit earthier than the taste. Blue Nina buds are beautiful to behold as well, with oversized minty green nugs that have rich blue undertones and are completely coated with fuzzy amber hairs and matching crystal trichomes. The Blue Nina high is just as delectable as its taste and appearance, with lazy stoney effects that are perfect for kicking back at the end of a long day. The onset brings a happy lift that infuses you with a sense of creative inspiration without affecting your energy level negatively or positively. As this effect builds, it will take a stoney turn, leaving you lethargic and lazy with a sleepy overtone that will leave you dozing. Thanks to these effects and its powerful 15-20% average THC level Blue Nina is said to be perfect for treating conditions such as chronic pain, insomnia, headaches, and eye pressure.',
     additionalInfo: '',
   } as Product,
 
@@ -627,7 +627,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '45-grams', amount: 2025 },
       { unit: '50-grams', amount: 2250 },
     ],
-    description1: '',
+    description1: 'Strawberry is an enigma of a cultivar with unknown genetics and an unknown breeder, though most online sources agree this strain was born in the Netherlands. Those who have sampled Strawberry claim it tastes like sweet, fresh berries with an earthy finish and smells of pungent fruit.',
     description2: '78% THC and 0% CBD',
     additionalInfo: '',
   } as Product,
@@ -653,13 +653,13 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '76% THC and 0% CBD',
+    description2: 'Pinkys Advice is a slightly sativa dominant hybrid strain (60% sativa/40% indica) created through crossing the powerful (The White X Jillybean) X The Sour strains. If you are looking for a soothing hybrid that will leave you feeling like you are floating, Pinkys Advice is the perfect choice for you. You will feel an almost immediate lifted sense hit you, pulling your mind into a highly lifted state that leaves you feeling weightless and like you are floating through the air. A relaxing tingle accompanies this heady state, keeping your body anchored as your mind floats away to new heights of pure happiness. This physical sense wont leave you sedated or sleepy in the slightest, simply at ease. Combined with its high 24-26% average THC level, these effects make Pinkys Advice a great choice for treating chronic stress or anxiety, depression, ADD or ADHD, mood swings and headaches or migraines. This bud has a spicy and fruity berry candy flavor with a super sour cherry citrus exhale. The aroma is of sour cherry candies with a spicy diesel overtone that intensifies as the nugs are broken apart and burned away. Pinkys Advice buds have conical and dense olive green nugs with lots of amber hairs and a coating of milky white crystal trichomes.',
     additionalInfo: '',
   } as Product,
 
   {
     id: 'Kush-web-budder-wax',
-    name: 'Kush web budder wax',
+    name: 'Budder wax',
     photo: 'assets/images/wax-and-concentrates/Kush web budder wax.jpg',
     categories: [Categories.cartridge, Categories.fullGram],
     brandId: Brands.wax,
@@ -678,7 +678,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '$78,62% THC and 0% CBD',
+    description2: 'At average THC concentrations of 70%, Budder is a potent form of cannabis that promotes an increase in relaxation, euphoria, happiness, and mood in users. Even though budder may technically have a lower average THC content than a concentrate like shatter, the prominent terpene profile found within budder helps promote a stronger, more encompassing high. When cannabis’s properties act synergistically, or as one, the effects are said to be more powerful. This idea, called the entourage effect, is specifically promoted in concentrates like budder that have higher terpene and cannabinoid levels. Many people love turning to budder wax simply because of the tasty, aromatic profiles that this concentrate tends to have. For those who love a good, pungent dab, budder makes a wonderful option.',
     additionalInfo: '',
   } as Product,
 
@@ -703,7 +703,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '67% THC and 0% CBD',
+    description2: 'Crumble Wax is a legal cannabis product with 83% CBD. Ideal for soothing you and getting you back to sleep, this cheap and legal weed tastes like apple pie. It goes very well with your sorbets and fruit salads.',
     additionalInfo: '',
   } as Product,
 
@@ -728,7 +728,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '73,67% THC and 0% CBD',
+    description2: 'White Fire OG Wax is also referred to as WiFi OG. It produces frosted buds that are quite valuable to the entire medical marijuana industry. It is a cross between the White and Fire OG. Also, it has a flowering period of 65 days and can easily germinate both indoors and outdoors. More so, it has a THC level of around 28 percent. Furthermore, it has a sour diesel like aroma with a touch of citrus. It has a sweet taste with an earthy flavour. In addition, it is considered to be one of the finest medical marijuana strains and has several benefits. Its buds look like small mountains covered with snow. WiFi OG is a mainly 60 percent Sativa dominant strain, so its effects are mainly cerebral; it has an uplifting effect on your body and helps in mitigating your lethargy. If you use it during the day, it would not have any drowsy effects on your system and will make you fresh.  Patients of these conditions rely on WiFi OG for mitigating their stress. In addition to this.Buy White Fire OG Wax Online',
     additionalInfo: '',
   } as Product,
 
@@ -753,7 +753,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '70% THC and 0% CBD',
+    description2: 'Sunset Haze is what you get when you combine Tangerine Haze and Rocky Mountain Blueberry, two flavorful parent strains that represent the opposite ends of the sativa-indica spectrum. Much like a summer sunset, this hybrid’s buds burst with hues of pink, purple, and red. It inherits a medley of fruity flavors, from ripe berry and watermelon to the sweet citrus notes of its Tangerine Haze parent. Expect an active and uplifting cerebral buzz from Sunset Haze, one that keeps the creativity flowing while also keeping your muscles fully relaxed.',
     additionalInfo: '',
   } as Product,
 
@@ -779,7 +779,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '71,98% THC and 0% CBD',
+    description2: 'Ice Cream Cake is an indica marijuana strain made by crossing Wedding Cake with Gelato #33. This strain offers sedating effects that leave your mind and body completely relaxed. Ice Cream Cake features a creamy flavor profile with sweet hints of vanilla and sugary dough. This strain is reported by medical marijuana patients and consumers to have calming effects that help with pain, sleep, and anxiety. Ice Cream Cake weed is ideal for night time use when you have nothing important to do except watch TV and fall asleep. Growers say this strain has light green and purple buds that are completely flushed with icy trichomes. ',
     additionalInfo: '',
   } as Product,
 
@@ -804,7 +804,7 @@ The stated percentages on this website may indicate the aggregate, and not indiv
       { unit: '50-grams', amount: 2250 },
     ],
     description1: '',
-    description2: '76% THC and 0% CBD',
+    description2: 'Tahoe OG is one of those strains that’s perfect for a cool summer night or a rainy day. Strong and long lasting, this is not a strain you want to smoke if you have things to do or have to be really active. Tahoe OG is perfect for those who suffer from pain, insomnia, or lack of appetite.',
     additionalInfo: '',
   } as Product,
 
